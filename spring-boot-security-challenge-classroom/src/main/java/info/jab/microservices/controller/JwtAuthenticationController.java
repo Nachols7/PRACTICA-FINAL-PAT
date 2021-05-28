@@ -65,11 +65,10 @@ public class JwtAuthenticationController {
 					.updateUserByUsername(currentPrincipalName, changePasswordRequest.getNewPassword());
 			authenticate(currentPrincipalName, changePasswordRequest.getNewPassword());
 
-			return ResponseEntity.ok().body(userDetail);
+			return ResponseEntity.ok().body(new ReservaResponse("OK"));
 		}else{
-			final UserDetail userDetail = jwtInMemoryUserDetailsService.getUserDetail(currentPrincipalName);
 
-			return ResponseEntity.badRequest().body(userDetail);
+			return ResponseEntity.badRequest().body(new ReservaResponse("Contraseñas diferentes"));
 		}
 	}
 

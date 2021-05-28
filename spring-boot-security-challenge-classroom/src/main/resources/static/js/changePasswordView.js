@@ -34,15 +34,16 @@ function validateForm() {
             })
             .then(response => response.json())
             .then(data => {
-                if(data.status != "OK"){
-                                    let conf = document.getElementById("mensaje");
-                                    conf.style.color = "red";
-                                    conf.textContent = "Petición incorrecta";
+                if(data.message != "OK"){
+                    let conf = document.getElementById("mensaje");
+                    conf.style.color = "red";
+                    conf.textContent = "Las contraseñas nuevas no son iguales";
                 }else{
-                    console.log(data);
-                    console.log("Password changed correctly");
+
+                    console.log("Contraseña cambiada correctamente");
                     document.location.href="index.html";
                 }
+                console.log(data);
             });
 
     } catch (err) {

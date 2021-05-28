@@ -12,6 +12,9 @@
     <script src="js/jquery.equalheights.js"></script>
     <script src="js/jquery.ui.totop.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/reservas.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+
     <script>
         $(document).ready(function(){
 
@@ -33,6 +36,7 @@
     <script src="js/html5shiv.js"></script>
     <link rel="stylesheet" media="screen" href="css/ie1.css">
     <![endif]-->
+
 
 </head>
 <div  class="">
@@ -76,8 +80,97 @@
 
         <div class="container_12">
             <div class="grid_8">
-                //Poner algo bonito
+                <div class="row">
+                    <div class="col-12">
+                        <form id="form">
+                            <div>
+                                Seleccione el día de su reserva:
+                            </div>
+                            <div>
+                                <select id="dia" >
+                                    <option>Lunes</option>
+                                    <option>Martes</option>
+                                    <option>Miercoles</option>
+                                    <option>Jueves</option>
+                                    <option>Viernes</option>
+                                    <option>Sabado</option>
+                                    <option>Domingo</option>
+                                </select>
+                            </div>
+
+                            <br>
+                            <div>
+                                Seleccione la hora de su reserva:
+                            </div>
+                            <div>
+                                <select id="hora" >
+                                    <option>19:00</option>
+                                    <option>20:00</option>
+                                    <option>21:00</option>
+                                    <option>22:00</option>
+                                    <option>23:00</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                Seleccione el numero de comensales:
+                            </div>
+                            <div>
+                                <select id="personas" >
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+
+                            <input id="reserva" type="submit" value="Reservar">
+                        </form>
+                            <div id="mensaje"></div>
+
+                    </div>
+
+                </div>
+
             </div>
+            <div class="grid_4">
+            <form id="verReservas">
+                <input id="verReservasBoton" type="submit" value="Ver tus reservas">
+            </form>
+            <div id="Reservas"></div>
+
+            <div id="estado"></div>
+            <script>
+                function reply_click(id_reserva){
+                    try{
+                        let cadena = document.getElementById(id_reserva)
+                        const address = '/api/reserva/'+id_reserva;
+                        fetch(address, {
+                            method: 'DELETE',
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'Authorization': 'Bearer ' + Cookies.get('token')
+                            }
+                        })
+                        .then(response => response.json())
+                        .then(data=>{
+                            let conf = document.getElementById("estado");
+                            if(data.message == "OK"){
+                                conf.style.color = "green";
+                                conf.textContent = "Reserva eliminada";
+                                cadena.remove();
+                            }
+                            console.log(data.message);
+                        });
+
+                    }catch(err){
+                        console.error(err.message);
+                    }
+                    return false;
+                }
+            </script>
+        </div>
         </div>
     </div>
 
@@ -90,7 +183,7 @@
             <div class="grid_6 prefix_3">
                 <a href="index.html" class="f_logo"><img src="images/f_logo.png" alt=""></a>
                 <div class="copy">
-                    &copy; 2021 | Privacy Policy <br> Website   designed by Nacho y Johannes
+                    &copy; 2021 | Privacy Policy <br> Website   designed by Nacho Lopez
                 </div>
             </div>
         </div>

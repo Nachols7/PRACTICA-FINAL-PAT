@@ -17,8 +17,8 @@ CREATE TABLE `user_details` (
 --
 
 INSERT INTO `user_details` (`user_id`, `username`, `first_name`, `last_name`, `gender`, `password`, `status`) VALUES
-(1, 'rogers63', 'david', 'john', 'Female', 'e6a33eee180b07e563d74fee8c2c66b8', 1),
-(2, 'mike28', 'rogers', 'paul', 'Male', '2e7dc6b8a1598f4f75c3eaa47958ee2f', 1),
+(1, 'rogers63', 'david', 'john', 'Female', '$2a$10$r6lgRfX6VEj.Mz0LJRaEjuGcK3g/Prjv3u.IhTJLzYNAuHQMf8uxa', 1),
+(2, 'mike28', 'rogers', 'paul', 'Male', '$2a$10$r6lgRfX6VEj.Mz0LJRaEjuGcK3g/Prjv3u.IhTJLzYNAuHQMf8uxa', 1),
 (3, 'rivera92', 'david', 'john', 'Male', '1c3a8e03f448d211904161a6f5849b68', 1),
 (4, 'ross95', 'maria', 'sanders', 'Male', '62f0a68a4179c5cdd997189760cbcf18', 1),
 (5, 'paul85', 'morris', 'miller', 'Female', '61bd060b07bddfecccea56a82b850ecf', 1),
@@ -39,4 +39,20 @@ INSERT INTO `user_details` (`user_id`, `username`, `first_name`, `last_name`, `g
 (20, 'mark80', 'mike', 'bell', 'Male', '084489b355edd349bca1c798788de19a', 1);
 
 -- Update password for all users
-UPDATE USER_DETAILS SET PASSWORD = '$2a$10$r6lgRfX6VEj.Mz0LJRaEjuGcK3g/Prjv3u.IhTJLzYNAuHQMf8uxa'
+
+DROP TABLE IF EXISTS `reservas`;
+
+CREATE TABLE `reservas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) DEFAULT NULL,
+  `start_date` date DEFAULT NULL,
+  `start_hour` varchar(50) DEFAULT NULL,
+  `number_of_people` tinyint(10) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ;
+
+INSERT INTO `reservas` (`id`, `username` ,`start_date` ,`start_hour`,`number_of_people`) VALUES
+(1, 'rogers63', '2021-05-20', '23:00', 2),
+(2, 'rogers63', '2021-05-28', '22:00', 3),
+(3, 'mike28', '2021-07-15', '19:00', 1),
+(4, 'rogers63', '2021-06-20', '21:00', 5);

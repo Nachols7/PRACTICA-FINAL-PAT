@@ -13,7 +13,7 @@ function tokenVerification() {
 
     if (typeof Cookies.get('token') !== 'undefined') {
         console.log("Cookie detected");
-        document.location.href="home.html";
+
     }
 }
 

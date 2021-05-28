@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a81b5bb-48e2-4c57-996a-8fcd4fd714fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/java/info/jab/microservices/controller/ReservaRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/java/info/jab/microservices/controller/ReservaResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/java/info/jab/microservices/controller/ReservasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/java/info/jab/microservices/model/Reserva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/java/info/jab/microservices/repository/ReservasRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/java/info/jab/microservices/service/ReservasService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/java/info/jab/microservices/service/impl/ReservasServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/js/reservas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/java/info/jab/microservices/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/java/info/jab/microservices/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/java/info/jab/microservices/controller/JwtAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/java/info/jab/microservices/controller/JwtAuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/bat/MailHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/change-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/change-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/extra.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/js/changePasswordView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/js/changePasswordView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/js/extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/js/homeView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/js/loginView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/js/loginView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/reservas.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-security-challenge-classroom/src/main/resources/static/reservas.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rssM4zcJjGfjoRlP13NYSgsJuq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nacho\OneDrive\Escritorio\ICAI\PAT\spring-boot-security-challenge-classroom\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="info.jab.microservices.MainApplication" />
+      <module name="spring-boot-security-challenge-classroom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.jab.microservices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a81b5bb-48e2-4c57-996a-8fcd4fd714fd" name="Default Changelist" comment="" />
+      <created>1619776081435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619776081435</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3501" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1619796179970">
+      <screen x="2736" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3501" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1619796179970" />
+    <state x="3389" y="228" key="FileChooserDialogImpl" timestamp="1622194783373">
+      <screen x="2736" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3389" y="228" key="FileChooserDialogImpl/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1622194783373" />
+    <state x="465" y="191" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1622137247249" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1622199940776">
+      <screen x="2736" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1622199940776" />
+    <state width="1326" height="200" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1622139084217" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1622199940776">
+      <screen x="2736" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1622199940776" />
+    <state width="1326" height="200" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1622139084217" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1622199940776">
+      <screen x="2736" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1622199940776" />
+    <state width="1326" height="200" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1622139084217" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1622199940776">
+      <screen x="2736" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1622199940776" />
+    <state width="1326" height="200" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1622139084217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1622199940776">
+      <screen x="2736" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1622199940776" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1622199940776">
+      <screen x="2736" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1622199940776" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1622199940776">
+      <screen x="2736" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1622199940776" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1622199940776">
+      <screen x="2736" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1622199940776" />
+    <state x="3226" y="175" key="Maven.ArtifactSearchDialog" timestamp="1619805186991">
+      <screen x="2736" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3226" y="175" key="Maven.ArtifactSearchDialog/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1619805186991" />
+    <state x="0" y="0" width="1380" height="840" key="dock-window-1" timestamp="1622195350276">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="0" y="0" width="1380" height="840" key="dock-window-1/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1622195350276" />
+    <state x="678" y="0" width="695" height="877" key="dock-window-1/0.0.1368.872@0.0.1368.872" timestamp="1621503789349" />
+    <state x="0" y="26" width="1380" height="797" key="dock-window-2" timestamp="1622195350276">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="0" y="26" width="1380" height="797" key="dock-window-2/0.0.1368.872/2736.0.1920.1040@2736.0.1920.1040" timestamp="1622195350276" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/info/jab/microservices/config/JwtRequestFilter.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

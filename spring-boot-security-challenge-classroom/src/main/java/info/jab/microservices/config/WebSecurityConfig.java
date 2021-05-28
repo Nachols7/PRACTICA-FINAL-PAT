@@ -60,9 +60,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.authorizeRequests()
 				.antMatchers("/",
 						"/index.html", "/home.html", "/out.html","/index-1.html","/index-2.html","/index-3.html",
-						"/images/**","/change-password.html","/index-4.html","/index-5.html",
-						"/js/**").permitAll()
-				.antMatchers("/api/login","/api/users/update-password").permitAll()
+						"/images/**","/change-password.html","/index-4.html","/index-5.html","/reservas.html",
+						"/js/**","/css/**","/fonts/**","/images/**","/bat/MailHandler.php").permitAll()
+				.antMatchers("/api/login","/api/users/update-password","/api/reserva","/api/reserva/{id_reserva}").permitAll()
 				.anyRequest()
 				.authenticated()
 				.and()
